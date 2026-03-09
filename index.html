@@ -1,0 +1,360 @@
+{\rtf1\ansi\ansicpg950\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="zh-TW">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>TBA \uc0\u34269 \u34899 \u21608 \u37002 \u24179 \u21488  | \u35731 \u34269 \u34899 \u36208 \u20837 \u29983 \u27963 </title>\
+    <style>\
+        /* =========================================\
+           Ant Design v5 Design Tokens (\uc0\u35373 \u35336 \u35722 \u25976 )\
+           ========================================= */\
+        :root \{\
+            --ant-primary: #1677ff;\
+            --ant-primary-hover: #4096ff;\
+            --ant-primary-bg: #e6f4ff;\
+            --ant-success: #52c41a;\
+            --ant-success-bg: #f6ffed;\
+            --ant-warning: #faad14;\
+            --ant-warning-bg: #fffbe6;\
+            --ant-error: #ff4d4f;\
+            --ant-error-bg: #fff2f0;\
+            --ant-text-primary: rgba(0, 0, 0, 0.88);\
+            --ant-text-secondary: rgba(0, 0, 0, 0.45);\
+            --ant-bg-layout: #f5f5f5;\
+            --ant-bg-container: #ffffff;\
+            --ant-border-color: #f0f0f0;\
+            --ant-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;\
+            --transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);\
+        \}\
+\
+        * \{\
+            margin: 0;\
+            padding: 0;\
+            box-sizing: border-box;\
+            font-family: var(--ant-font);\
+        \}\
+\
+        body \{\
+            background-color: var(--ant-bg-layout);\
+            color: var(--ant-text-primary);\
+            line-height: 1.5715;\
+            overflow-x: hidden;\
+            scroll-behavior: smooth;\
+        \}\
+\
+        /* \uc0\u38914 \u37096 \u38617 \u23652 \u23566 \u35261 \u21015  */\
+        .top-bar \{\
+            position: fixed;\
+            top: 0;\
+            width: 100%;\
+            background-color: var(--ant-bg-layout);\
+            border-bottom: 1px solid var(--ant-border-color);\
+            padding: 4px 5%;\
+            display: flex;\
+            justify-content: flex-end;\
+            align-items: center;\
+            gap: 20px;\
+            z-index: 1001;\
+            font-size: 12px;\
+        \}\
+\
+        .top-bar a \{\
+            color: var(--ant-text-secondary);\
+            text-decoration: none;\
+            transition: var(--transition);\
+        \}\
+\
+        .top-bar a:hover \{\
+            color: var(--ant-primary);\
+        \}\
+\
+        /* \uc0\u20027 \u23566 \u35261 \u21015  */\
+        header \{\
+            position: fixed;\
+            top: 26px; \
+            width: 100%;\
+            height: 64px;\
+            padding: 0 5%;\
+            display: flex;\
+            justify-content: space-between;\
+            align-items: center;\
+            background: var(--ant-bg-container);\
+            box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);\
+            z-index: 1000;\
+        \}\
+\
+        .logo \{\
+            font-size: 20px;\
+            font-weight: 700;\
+            letter-spacing: 1px;\
+            color: var(--ant-text-primary);\
+            text-decoration: none;\
+            display: flex;\
+            align-items: center;\
+            gap: 8px;\
+        \}\
+\
+        .nav-links \{\
+            display: flex;\
+            height: 100%;\
+        \}\
+\
+        .nav-links a \{\
+            color: var(--ant-text-primary);\
+            text-decoration: none;\
+            font-size: 14px;\
+            padding: 0 20px;\
+            display: flex;\
+            align-items: center;\
+            transition: var(--transition);\
+            position: relative;\
+        \}\
+\
+        .nav-links a::after \{\
+            content: '';\
+            position: absolute;\
+            bottom: 0;\
+            left: 20px;\
+            right: 20px;\
+            height: 2px;\
+            background-color: transparent;\
+            transition: var(--transition);\
+        \}\
+\
+        .nav-links a:hover \{ color: var(--ant-primary); \}\
+        .nav-links a:hover::after \{ background-color: var(--ant-primary); \}\
+\
+        .auth-group \{\
+            display: flex;\
+            gap: 12px;\
+            align-items: center;\
+        \}\
+\
+        /* \uc0\u25353 \u37397 \u27171 \u24335  */\
+        .btn \{\
+            height: 32px;\
+            padding: 4px 15px;\
+            font-size: 14px;\
+            border-radius: 6px;\
+            cursor: pointer;\
+            transition: var(--transition);\
+            display: inline-flex;\
+            align-items: center;\
+            justify-content: center;\
+            gap: 8px;\
+            border: 1px solid transparent;\
+            text-decoration: none;\
+        \}\
+\
+        .btn-lg \{\
+            height: 40px;\
+            padding: 6.4px 15px;\
+            font-size: 16px;\
+            border-radius: 8px;\
+        \}\
+\
+        .btn-primary \{\
+            background-color: var(--ant-primary);\
+            color: #fff;\
+            box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);\
+        \}\
+\
+        .btn-primary:hover \{ background-color: var(--ant-primary-hover); \}\
+        .btn-primary:disabled \{\
+            background-color: #d9d9d9;\
+            color: rgba(0,0,0,0.25);\
+            cursor: not-allowed;\
+            box-shadow: none;\
+        \}\
+\
+        .btn-default \{\
+            background-color: #fff;\
+            color: var(--ant-text-primary);\
+            border-color: #d9d9d9;\
+            box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);\
+        \}\
+\
+        .btn-default:hover \{\
+            color: var(--ant-primary);\
+            border-color: var(--ant-primary);\
+        \}\
+\
+        .btn-text \{\
+            background: transparent;\
+            color: var(--ant-text-primary);\
+        \}\
+\
+        .btn-text:hover \{ background: rgba(0, 0, 0, 0.04); \}\
+\
+        /* \uc0\u33521 \u38596 \u21312 \u22602  */\
+        .hero \{\
+            position: relative;\
+            padding: 120px 5% 60px;\
+            background-color: var(--ant-bg-container);\
+            overflow: hidden;\
+            border-bottom: 1px solid var(--ant-border-color);\
+        \}\
+\
+        .hero-layout \{\
+            display: flex;\
+            width: 100%;\
+            max-width: 1200px;\
+            margin: 0 auto;\
+            align-items: center;\
+            gap: 60px;\
+        \}\
+\
+        .hero-text \{ flex: 1; \}\
+        .hero-text h1 \{\
+            font-size: clamp(2rem, 4vw, 3.5rem);\
+            font-weight: 700;\
+            line-height: 1.2;\
+            margin-bottom: 24px;\
+            color: var(--ant-text-primary);\
+        \}\
+        .hero-text p \{\
+            font-size: 16px;\
+            color: var(--ant-text-secondary);\
+            margin-bottom: 32px;\
+            max-width: 500px;\
+        \}\
+\
+        .hero-image \{ flex: 1; height: 400px; \}\
+        .hero-image img \{\
+            width: 100%; height: 100%; object-fit: cover;\
+            border-radius: 12px;\
+            box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);\
+        \}\
+\
+        /* \uc0\u20849 \u29992 \u21312 \u22602 \u35373 \u23450  */\
+        .section-container \{\
+            padding: 80px 5%;\
+            max-width: 1200px;\
+            margin: 0 auto;\
+        \}\
+\
+        .section-header \{\
+            display: flex;\
+            justify-content: space-between;\
+            align-items: flex-end;\
+            margin-bottom: 32px;\
+        \}\
+\
+        .section-title \{\
+            font-size: 24px;\
+            font-weight: 600;\
+            color: var(--ant-text-primary);\
+        \}\
+        .section-title span \{\
+            display: block;\
+            color: var(--ant-text-secondary);\
+            font-size: 14px;\
+            margin-top: 4px;\
+            font-weight: 400;\
+        \}\
+\
+        .view-all \{\
+            color: var(--ant-primary);\
+            text-decoration: none;\
+            font-size: 14px;\
+            display: flex;\
+            align-items: center;\
+            gap: 4px;\
+            transition: var(--transition);\
+        \}\
+        .view-all:hover \{ color: var(--ant-primary-hover); \}\
+\
+        .grid \{\
+            display: grid;\
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));\
+            gap: 24px;\
+        \}\
+\
+        /* \uc0\u21345 \u29255 \u27171 \u24335  */\
+        .ant-card \{\
+            background: var(--ant-bg-container);\
+            border: 1px solid var(--ant-border-color);\
+            border-radius: 8px;\
+            transition: var(--transition);\
+            position: relative;\
+            overflow: hidden;\
+            display: flex;\
+            flex-direction: column;\
+        \}\
+\
+        .ant-card:hover \{\
+            box-shadow: 0 1px 2px -2px rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.12), 0 5px 12px 4px rgba(0, 0, 0, 0.09);\
+        \}\
+\
+        .ant-card-cover \{\
+            width: 100%; height: 280px;\
+            overflow: hidden; position: relative;\
+            background-color: var(--ant-bg-layout);\
+        \}\
+        .ant-card-cover img \{\
+            width: 100%; height: 100%; object-fit: cover;\
+            transition: transform 0.5s ease;\
+        \}\
+        .ant-card:hover .ant-card-cover img \{ transform: scale(1.03); \}\
+\
+        .ant-tag \{\
+            position: absolute; top: 12px; left: 12px;\
+            padding: 0 7px; font-size: 12px; line-height: 20px;\
+            background: #fafafa; border: 1px solid #d9d9d9;\
+            border-radius: 4px; color: var(--ant-text-primary); z-index: 2;\
+        \}\
+        .ant-tag-error \{ color: #cf1322; background: #fff1f0; border-color: #ffa39e; \}\
+        .ant-tag-warning \{ color: #d46b08; background: #fff7e6; border-color: #ffd591; \}\
+        .ant-tag-processing \{ color: #096dd9; background: #e6f7ff; border-color: #91d5ff; \}\
+\
+        .ant-card-body \{ padding: 20px; display: flex; flex-direction: column; flex: 1; \}\
+        .ant-card-meta-description \{ font-size: 12px; color: var(--ant-text-secondary); margin-bottom: 8px; \}\
+        .ant-card-meta-title \{ \
+            font-size: 16px; font-weight: 600; color: var(--ant-text-primary);\
+            margin-bottom: 16px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;\
+        \}\
+        \
+        .price-row \{ display: flex; justify-content: space-between; align-items: center; margin-top: auto; margin-bottom: 16px; \}\
+        .card-price \{ font-size: 18px; font-weight: 600; color: var(--ant-primary); \}\
+        .action-btn-block \{ width: 100%; \}\
+        .bg-white \{ background-color: var(--ant-bg-container); \}\
+\
+        /* \uc0\u21109 \u20316 \u20013 \u24515  AI \u21312 \u22602  */\
+        .creation-cta \{\
+            background: #ffffff;\
+            border: 1px solid var(--ant-border-color);\
+            padding: 48px; margin: 60px auto; max-width: 1200px;\
+            border-radius: 8px;\
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px 0 rgba(0, 0, 0, 0.02);\
+            display: flex; flex-direction: column; gap: 32px;\
+        \}\
+        .creation-header \{ text-align: center; \}\
+        .creation-header h2 \{ color: var(--ant-text-primary); margin-bottom: 16px; font-size: 24px; font-weight: 600; \}\
+        .creation-header p \{ color: var(--ant-text-secondary); font-size: 14px; max-width: 600px; margin: 0 auto; \}\
+\
+        .ai-planner-layout \{ display: grid; grid-template-columns: 1fr 1fr; gap: 32px; \}\
+        .ai-form-box \{ background: var(--ant-bg-layout); padding: 24px; border-radius: 8px; border: 1px solid var(--ant-border-color); \}\
+        .ant-form-item \{ margin-bottom: 24px; \}\
+        .ant-form-item-label \{ display: block; margin-bottom: 8px; font-size: 14px; color: var(--ant-text-primary); \}\
+\
+        .ant-input, .ant-select \{\
+            width: 100%; padding: 7px 11px; font-size: 14px; line-height: 1.5715;\
+            background-color: #fff; border: 1px solid #d9d9d9; border-radius: 6px; transition: all 0.2s;\
+        \}\
+        .ant-input:focus, .ant-select:focus \{ border-color: var(--ant-primary); box-shadow: 0 0 0 2px rgba(5, 145, 255, 0.1); outline: 0; \}\
+\
+        .ai-result-box \{\
+            background: #ffffff; padding: 24px; border-radius: 8px; border: 1px solid var(--ant-border-color);\
+            display: flex; flex-direction: column; justify-content: center; position: relative; min-height: 350px;\
+        \}\
+        .ai-result-empty \{ text-align: center; color: var(--ant-text-secondary); \}\
+        .ai-result-empty svg \{ margin-bottom: 16px; color: #d9d9d9; \}\
+        .ai-result-content \{ display: none; animation: fadeIn 0.5s ease; \}\
+        .ai-result-title \{ font-size: 20px; font-weight: 600; color: var(--ant-primary); margin-bottom}
